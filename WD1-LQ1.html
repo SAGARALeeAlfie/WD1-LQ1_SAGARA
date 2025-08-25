@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tusok-tusok ni Lee</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background: url('https://i.postimg.cc/LXbGKRd7/Street-Food-Neon-Glow.png') no-repeat center center/cover;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2em;
+      font-weight: bold;
+      text-shadow: 2px 2px 5px black;
+    }
+    nav {
+      background-color: blue;
+      text-align: center;
+      padding: 10px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px;
+    }
+    h2 {
+      margin-bottom: 10px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+    .item {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    }
+    .item img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .item h3, .item h4 {
+      margin: 10px 0 5px;
+    }
+    .buy-btn {
+      background: blue;
+      color: white;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background-color: blue;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- A.1 Header -->
+  <header>
+    Tusok Lang Sapat Na
+  </header>
+
+  <!-- A.2 Navigation -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#info">Shop Information</a>
+    <a href="#gallery">Shop Gallery</a>
+    <a href="#footer">Footer</a>
+  </nav>
+
+  <!-- A.3 Content 1 - Shop Information -->
+  <section id="info">
+    <h2>Shop Name: tusok-tusokan ni mang LEE</h2>
+    <h5>Shop Address:</h5>
+    <p>las-ud sta.cruz, ilocos sur</p>
+    <h5>Shop Number:</h5>
+    <p>(+63) 9561458903</p>
+    <h5>Shop Email Address:</h5>
+    <p>tutusokinkita@email.com</p>
+    <h5>Operating Hours:</h5>
+    <p>MONDAY-SUNDAY:3:00 PM - 10:00 PM</p>
+  </section>
+
+  <!-- A.4 Content 2 - Shop Gallery -->
+  <section id="gallery">
+    <h2>Shop Gallery</h2>
+    <div class="gallery">
+      <!-- Sample Item -->
+      <div class="item">
+        <img src="c:\Users\Admin\Downloads\168f6c39-7ad7-4829-bccc-6e99293d432e.jpg" alt="Item 1">
+        <h3><b>FISHBALL</b></h3>
+        <p>fishball 
+          Bakit Masaya ang fishball?
+          Kasi lagi syang may "sawsawan" ng saya
+        </p>
+        <h4><b>₱10</b></h4>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+
+      <div class="item">
+        <img src="c:\Users\Admin\Downloads\7adee329-3e61-4646-a715-4af42341f29f.jpg" alt="Item 2">
+        <h3><b>KIKIAM</b></h3>
+        <p>KIKIAM
+          anong tawag sa kikkiam na nag-aral?
+          KI-KICK-YAM
+        </p>
+        <h4><b>₱5</b></h4>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+
+      <div class="item">
+        <img src="c:\Users\Admin\Downloads\ba52c659-8292-4436-ac99-ff4d1fa6a811.jpg" alt="Item 3">
+        <h3><b>SQUIDBALL</b></h3>
+        <p>SQUIDBALL
+          Bakit hindi natutulog ang squidball?
+          Kasi syang  "gisin-gising" sa mantika
+        </p>
+        <h4><b>₱10</b></h4>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+
+       <div class="item">
+        <img src="c:\Users\Admin\Downloads\22e278e3-30af-42a6-9773-2cb631abbc5a (1).jpg" alt="Item 3">
+        <h3><b>HOTDOG</b></h3>
+        <p>HOTDOG
+          Bkit hindi na sumasama ang hotodg sa outing?
+          Kasi lagi syang nauubos sa inuman
+        </p>
+        <h4><b>₱10</b></h4>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+
+       <div class="item">
+        <img src="c:\Users\Admin\Downloads\a4146a48-a88d-4fbb-8b10-fb6bea919c60.jpg" alt="Item 3">
+        <h3><b>FRENCH FRIES</b></h3>
+        <p>French Fries
+          Anong fries mahilig sa romances?
+          "French" fries 
+        </p>
+        <h4><b>₱30-50</b></h4>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+
+       <div class="item">
+        <img src="c:\Users\Admin\Downloads\95a8244d-b22a-4cba-88d0-b86f47413e1a.jpg" alt="Item 3">
+        <h3><b>PANDAN</b></h3>
+        <p>Pandan Palamig
+          Bakit pandak ang pandan palamig?
+          Kasi palaging "low-level" sa timpla
+        </p>
+        <h4><b>₱10-20</b></h4>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+
+       <div class="item">
+        <img src="c:\Users\Admin\Downloads\046e5b65-e3a3-4d0e-b502-1c5cf14bec04.jpg" alt="Item 3">
+        <h3><b>BUKO</b></h3>
+        <p>Buko palamig
+          anong sabi ng buko palamig nung may nag bigay ng hugot?
+          "Huwag kang ma-stress chill ka muna dto" 
+        </p>
+        <h4><b>₱10-20</b></h4>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+
+       <div class="item">
+        <img src="c:\Users\Admin\Downloads\4a865f4c-42a7-4011-a519-a9482acc80bc.jpg" alt="Item 3">
+        <h3><b>SAGO'T GULAMAN</b></h3>
+        <p>Sago't Gulaman
+          Bakit laging trending ang sago't gulaman?
+          Kasi sya yung tunay na "Refreshing content"
+        </p>
+        <h4><b>₱10-20</b></h4>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+
+       <div class="item">
+        <img src="c:\Users\Admin\Downloads\1c2c6f5b-6b46-4846-a824-f65818daa71f.jpg" alt="Item 3">
+        <h3><b>KWEK-KWEK</b></h3>
+        <p>Kwek Kwek
+          Bakit lagi kang napa-kwek kwek pag tumatawa?
+          Kasi itlog ka na nga naka-orange kapa
+        </p>
+        <h4><b>₱10</b></h4>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+
+       <div class="item">
+        <img src="c:\Users\Admin\Downloads\ea680699-96b5-4b3d-8847-c8a7195288df.jpg" alt="Item 3">
+        <h3><b>TOKWA</b></h3>
+        <p>TOKWA
+          Anong sabi ng tokwa sa kanin?
+          "Pare tufo-get me out"
+        </p>
+        <h4><b>₱10</b></h4>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+
+       <div class="item">
+        <img src="c:\Users\Admin\Downloads\f8872305-9eaa-4313-8a85-e0dd139c553b.jpg" alt="Item 3">
+        <h3><b>SHANGHAI</b></h3>
+        <p>Shanghai
+          Bakit mahilig sa social media ang lumpiang Shanghai?
+          Kasi laging naka-"roll"sa feed
+        </p>
+        <h4><b>₱20</b></h4>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+
+       <div class="item">
+        <img src="c:\Users\Admin\Downloads\87706359-30de-4992-8872-f4cb5d205f2b (1).jpg" alt="Item 3">
+        <h3><b>SIOMAI</b></h3>
+        <p>Siomai
+          Anong sabi ng siomai nung nililigawan sya?
+          "siomai one and only"
+        </p>
+        <h4><b>₱5</b></h4>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- A.5 Footer -->
+  <footer id="footer">
+    Developed by: POGI NI LEE ALFIE  - 2C
+  </footer>
+
+</body>
+</html>
